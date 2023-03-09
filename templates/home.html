@@ -46,6 +46,8 @@
     </style> -->
 </head>
 <body>
+    {% include 'nav.html' %}
+
     <h1 class="text-center mt-2 mb-4">Tracey Careers</h1>
     <div align="center">
         <img class="img-fluid" src="static\five-ways-to-build-a-rewarding-career.jpg" alt="Something went wrong" >
@@ -53,13 +55,23 @@
     </div>
     <div class="container">
         <div>
+            <br>
+            <br>
+
             <h2>About Tracey</h1>
+            <div class="row">
+                <div class="col-9">
             <p class="lead">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit illo eveniet odio velit, repudiandae excepturi tempore, harum obcaecati incidunt nihil nemo, temporibus cum voluptates. Laboriosam doloremque veniam doloribus nihil ea?
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dignissimos iusto aut debitis ullam! Itaque reprehenderit provident architecto ad nostrum, accusantium possimus sit ut impedit similique amet explicabo quas esse!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ratione ducimus voluptatum fugit dolores accusantium, laudantium, temporibus cupiditate pariatur placeat rem. Ipsum laborum, laboriosam veniam reprehenderit dicta minima? Nihil, unde.
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, est iusto dicta ea possimus in recusandae odit, beatae placeat, nemo similique ex consequuntur. Minus debitis explicabo vitae fuga porro omnis.
             </p>
+        </div>
+        <div class="col-3">
+            <img src="static\images.jpg" alt="">
+        </div>
+        </div>
         </div>
         <div>
             <h2 class="text-center mt-2 mb-4">Open Positions</h2> 
@@ -72,5 +84,6 @@
             <p class="mt-4"> @ 2023 Tracey Careers</p>
         </div>
     </div>
+    {% include 'footer.html' %}
 </body>
 </html>
